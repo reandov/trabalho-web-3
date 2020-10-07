@@ -9,4 +9,4 @@ Repositório contendo os códigos e ideias para o terceiro trabalho da cadeira d
 - CSS
 - JavaScript
 
-[Contribuidores do Projeto](#)
+[Contribuidores do Projeto](https://github.com/evnrodr/trabalho-web-3/blob/main/CONTRIBUTORS.md)

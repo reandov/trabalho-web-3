@@ -1,2 +1,12 @@
-# trabalho-web-3
-Repositório contendo os códigos e ideias para o segundo trabalho da cadeira de Desenvolvimento Web da Universidade Federal do Ceará - Campus Russas.
+# 3º Trabalho de Desenvolvimento de Software para Web
+Repositório contendo os códigos e ideias para o terceiro trabalho da cadeira de Desenvolvimento Web da Universidade Federal do Ceará - Campus Russas
+
+# Projeto: Gerenciador de Eventos Acadêmicos
+
+## Tecnologias Utilizadas
+- React
+- HTML
+- CSS
+- JavaScript
+
+[Contribuidores do Projeto](#)

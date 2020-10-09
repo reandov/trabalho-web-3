@@ -1,19 +1,68 @@
 {
-  "posts": [
+  "viagens": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "destino": "Russas",
+      "partida": "Fortaleza",
+      "data": "2020-10-14",
+      "placa": "1D462484",
+      "nome": "Evandro Rodrigues"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "destino": "Morada Nova",
+      "partida": "Russas",
+      "data": "2020-10-15",
+      "placa": "1D462484",
+      "nome": "Evandro Rodrigues"
+    },
+    {
+      "id": 3,
+      "destino": "Jaguaruana",
+      "partida": "Russas",
+      "data": "2020-10-16",
+      "placa": "1D462484",
+      "nome": "Evandro Rodrigues"
+    },
+    {
+      "id": 4,
+      "destino": "Limoeiro",
+      "partida": "Fortaleza",
+      "data": "2020-10-08",
+      "placa": "1D462484",
+      "nome": "Evandro Rodrigues"
+    },
+    {
+      "id": 5,
+      "destino": "Russas",
+      "partida": "Russas",
+      "data": "2020-10-02",
+      "placa": "1D462484",
+      "nome": "Evandro Rodrigues"
+    },
+    {
+      "id": 6,
+      "destino": "Jaguaruana",
+      "partida": "Russas",
+      "data": "2020-10-03",
+      "placa": "1D462484",
+      "nome": "Evandro "
+    },
+    {
+      "id": 7,
+      "destino": "Russas",
+      "partida": "Russas",
+      "data": "2020-10-07",
+      "placa": "1D462484",
+      "nome": "Evandro "
+    },
+    {
+      "id": 8,
+      "destino": "Russas",
+      "partida": "Fortaleza",
+      "data": "2020-10-01",
+      "placa": "1D462484",
+      "nome": "Evandro "
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

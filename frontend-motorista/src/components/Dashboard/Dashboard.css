@@ -1,0 +1,29 @@
+.card-list {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-list ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 1.2vh;
+}
+
+@media (max-width: 650px) {
+  .card-list ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+.list-header {
+  display: flex;
+}
+
+.list-header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}

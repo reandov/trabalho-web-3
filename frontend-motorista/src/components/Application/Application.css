@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-container {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 950px) {
+  .content-container div:first-child {
+    margin-top: 10px;
+  }
+
+  .content-container {
+    flex-wrap: wrap;
+  }
+}

@@ -117,6 +117,6 @@ export const Form = ({ viagens, setViagens, api }) => {
         </div>
         <button type="submit">Cadastrar Viagem</button>
       </form>
-    </div>
+    </dive
   );
 };

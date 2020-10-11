@@ -61,7 +61,7 @@ export const Application = () => {
               </div>
             </Route>
             <Route path="/passageiro">
-              <Panel viagens={viagens} />
+              <Panel viagens={viagens} setViagens={setViagens} />
             </Route>
           </Switch>
           <div>

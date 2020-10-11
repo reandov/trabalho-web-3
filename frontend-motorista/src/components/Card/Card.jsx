@@ -20,7 +20,6 @@ export const Card = ({ viagem, handleDestroyViagem }) => {
           <p>Nome do(a) motorista: {viagem.nome}</p>
           <p>Data da viagem: {viagem.data}</p>
           <p>Local de Partida: {viagem.partida}</p>
-          <p>Passageiros: {viagem.passageiros}</p>
         </div>
       </header>
     </li>

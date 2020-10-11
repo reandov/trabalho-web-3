@@ -7,7 +7,7 @@ import { CardClean } from "./CardClean";
 
 import api from "../../services/api";
 
-export const Panel = ({ viagens }) => {
+export const Panel = ({ viagens, setViagens }) => {
   const [caronas, setCaronas] = useState([]);
 
   useEffect(() => {
@@ -21,8 +21,13 @@ export const Panel = ({ viagens }) => {
   }, []);
 
   async function handleAddEscolha(data) {
-    await api.put(`/viagens/${data.id}`, data);
     let response = await api.post("/caronas", data);
+    response = await api.get("/caronas");
+    setCaronas(response.data);
+  }
+
+  async function handleDestroyEscolha(id) {
+    let response = await api.delete(`/caronas/${id}`);
     response = await api.get("/caronas");
     setCaronas(response.data);
   }
@@ -50,7 +55,11 @@ export const Panel = ({ viagens }) => {
           </div>
           <ul>
             {caronas.map((carona) => (
-              <CardClean key={carona.id} carona={carona} />
+              <CardClean
+                key={carona.id}
+                carona={carona}
+                handleDestroyEscolha={handleDestroyEscolha}
+              />
             ))}
           </ul>
         </div>

@@ -1,8 +1,15 @@
 import React from "react";
 
-export const CardClean = ({ carona }) => {
+export const CardClean = ({ carona, handleDestroyEscolha }) => {
+  async function handleDelete() {
+    await handleDestroyEscolha(carona.id);
+  }
+
   return (
     <li className="item">
+      <div className="button-options">
+        <button onClick={handleDelete}>Excluir</button>
+      </div>
       <header>
         <div className="info">
           <strong>{carona.destino}</strong>

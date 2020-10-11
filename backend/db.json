@@ -2,23 +2,53 @@
   "viagens": [
     {
       "id": 1,
-      "destino": "Jaguaruana",
-      "partida": "Russas",
+      "destino": "Russas",
+      "partida": "Fortaleza",
       "data": "2020-10-12",
-      "placa": "1D462484",
-      "nome": "Evandro Rodrigues",
-      "passageiros": "Jordão"
+      "placa": "7FG137F4",
+      "nome": "Evandro Rodrigues"
+    },
+    {
+      "id": 2,
+      "destino": "Cristais",
+      "partida": "Morada Nova",
+      "data": "2020-10-13",
+      "placa": "3847H3G8",
+      "nome": "Leonardo David"
+    },
+    {
+      "id": 3,
+      "destino": "Beberibe",
+      "partida": "Russas",
+      "data": "2020-10-14",
+      "placa": "784H3874",
+      "nome": "João Victor"
+    },
+    {
+      "id": 4,
+      "destino": "Morada Nova",
+      "partida": "Russas",
+      "data": "2020-10-15",
+      "placa": "8GFGJ798",
+      "nome": "Jordão Rodrigues"
     }
   ],
   "caronas": [
     {
       "id": 1,
-      "destino": "Jaguaruana",
-      "partida": "Russas",
+      "destino": "Russas",
+      "partida": "Fortaleza",
       "data": "2020-10-12",
-      "placa": "1D462484",
-      "nome": "Evandro Rodrigues",
-      "passageiros": "Jordão"
+      "placa": "7FG137F4",
+      "nome": "Evandro Rodrigues"
+    },
+    {
+      "id": 3,
+      "destino": "Beberibe",
+      "partida": "Russas",
+      "data": "2020-10-14",
+      "placa": "784H3874",
+      "nome": "João Victor"
     }
   ]
 }

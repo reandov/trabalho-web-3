@@ -9,7 +9,6 @@ export const CardAlt = ({ viagem, handleAddEscolha }) => {
       data: viagem.data,
       placa: viagem.placa,
       nome: viagem.nome,
-      passageiros: "Jordão",
     });
   }
 

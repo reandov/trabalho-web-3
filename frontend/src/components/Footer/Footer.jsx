@@ -16,7 +16,7 @@ export const Footer = () => (
         </ul>
       </div>
       <div className="right-side">
-        <a href="https://github.com/evnrodr/trabalho-web-2">Trabalho Web 3</a>
+        <a href="https://github.com/evnrodr/trabalho-web-3">Trabalho Web 3</a>
       </div>
     </div>
   </footer>

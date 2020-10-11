@@ -7,7 +7,7 @@ import { CardClean } from "./CardClean";
 
 import api from "../../services/api";
 
-export const Panel = ({ viagens, setViagens }) => {
+export const Panel = ({ viagens }) => {
   const [caronas, setCaronas] = useState([]);
 
   useEffect(() => {

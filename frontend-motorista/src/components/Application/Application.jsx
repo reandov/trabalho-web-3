@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 import { Header } from "../Header/Header";
 import { Form } from "../Form/Form";
 import { Dashboard } from "../Dashboard/Dashboard";
+import { Panel } from "../Panel/Panel";
 import { Footer } from "../Footer/Footer";
 
 import api from "../../services/api";
@@ -11,6 +13,15 @@ import "./Application.css";
 
 export const Application = () => {
   const [viagens, setViagens] = useState([]);
+  const [page, setPage] = useState("passageiro");
+
+  const updateRoute = () => {
+    if (page === "passageiro") {
+      setPage("motorista");
+    } else {
+      setPage("passageiro");
+    }
+  };
 
   useEffect(() => {
     async function loadViagens() {
@@ -23,23 +34,41 @@ export const Application = () => {
   }, []);
 
   return (
-    <div className="page-container">
-      <div className="content-wrap">
-        <div>
-          <Header />
-        </div>
-        <div className="content-container">
+    <BrowserRouter>
+      <div className="page-container">
+        <div className="content-wrap">
           <div>
-            <Form viagens={viagens} setViagens={setViagens} api={api} />
+            <Header />
+            <Link to={`/${page}`} className="route-link">
+              <button onClick={updateRoute} className="route-button">
+                &#129068; Ir para {`${page}`}
+              </button>
+            </Link>
           </div>
+          <Switch>
+            <Route path="/motorista" exact>
+              <div className="content-container">
+                <div>
+                  <Form viagens={viagens} setViagens={setViagens} api={api} />
+                </div>
+                <div>
+                  <Dashboard
+                    viagens={viagens}
+                    api={api}
+                    setViagens={setViagens}
+                  />
+                </div>
+              </div>
+            </Route>
+            <Route path="/passageiro">
+              <Panel viagens={viagens} />
+            </Route>
+          </Switch>
           <div>
-            <Dashboard viagens={viagens} api={api} setViagens={setViagens} />
+            <Footer />
           </div>
-        </div>
-        <div>
-          <Footer />
         </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 };

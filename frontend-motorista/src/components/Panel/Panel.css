@@ -1,0 +1,4 @@
+.panel-component {
+  display: flex;
+  flex-direction: row;
+}

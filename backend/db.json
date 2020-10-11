@@ -2,67 +2,23 @@
   "viagens": [
     {
       "id": 1,
-      "destino": "Russas",
-      "partida": "Fortaleza",
-      "data": "2020-10-14",
-      "placa": "1D462484",
-      "nome": "Evandro Rodrigues"
-    },
-    {
-      "id": 2,
-      "destino": "Morada Nova",
-      "partida": "Russas",
-      "data": "2020-10-15",
-      "placa": "1D462484",
-      "nome": "Evandro Rodrigues"
-    },
-    {
-      "id": 3,
       "destino": "Jaguaruana",
       "partida": "Russas",
-      "data": "2020-10-16",
+      "data": "2020-10-12",
       "placa": "1D462484",
-      "nome": "Evandro Rodrigues"
-    },
+      "nome": "Evandro Rodrigues",
+      "passageiros": "Jordão"
+    }
+  ],
+  "caronas": [
     {
-      "id": 4,
-      "destino": "Limoeiro",
-      "partida": "Fortaleza",
-      "data": "2020-10-08",
-      "placa": "1D462484",
-      "nome": "Evandro Rodrigues"
-    },
-    {
-      "id": 5,
-      "destino": "Russas",
-      "partida": "Russas",
-      "data": "2020-10-02",
-      "placa": "1D462484",
-      "nome": "Evandro Rodrigues"
-    },
-    {
-      "id": 6,
+      "id": 1,
       "destino": "Jaguaruana",
       "partida": "Russas",
-      "data": "2020-10-03",
+      "data": "2020-10-12",
       "placa": "1D462484",
-      "nome": "Evandro "
-    },
-    {
-      "id": 7,
-      "destino": "Russas",
-      "partida": "Russas",
-      "data": "2020-10-07",
-      "placa": "1D462484",
-      "nome": "Evandro "
-    },
-    {
-      "id": 8,
-      "destino": "Russas",
-      "partida": "Fortaleza",
-      "data": "2020-10-01",
-      "placa": "1D462484",
-      "nome": "Evandro "
+      "nome": "Evandro Rodrigues",
+      "passageiros": "Jordão"
     }
   ]
 }
